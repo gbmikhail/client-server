@@ -1,7 +1,7 @@
 import logging
 import os
 import sys
-from logging.handlers import RotatingFileHandler, TimedRotatingFileHandler
+from logging.handlers import RotatingFileHandler
 
 MAX_LOG_SIZE = 5 * 1024 * 1024
 log = logging.getLogger("server")
